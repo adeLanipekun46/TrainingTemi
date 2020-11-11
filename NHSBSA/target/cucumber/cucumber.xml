@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.031401">
+    <testcase classname="Eligibility Checker" name="Valid Eligibility Checker For Under 16years" time="13.031401">
+        <system-out>
+            <![CDATA[Given I navigate to  NHS Costs Checker......................................passed
+And I click on Start........................................................passed
+And I select Wales as country i live in.....................................passed
+And I click on Next.........................................................passed
+And I enter my Date of Birth................................................passed
+When I click on Next........................................................passed
+Then I see the result page..................................................passed
+And I can see the text "Based on what you've told us You get help with NHS costs".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

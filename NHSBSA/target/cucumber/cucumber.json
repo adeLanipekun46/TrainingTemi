@@ -1,0 +1,161 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8610225400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverHook.getDriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Valid Eligibility Checker For Under 16years",
+        "description": "",
+        "id": "eligibility-checker;valid-eligibility-checker-for-under-16years",
+        "after": [
+          {
+            "result": {
+              "duration": 1395196600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverHook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1089353200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to  NHS Costs Checker",
+            "match": {
+              "location": "EligibilityCheckerSteps.i_navigate_to_NHS_Costs_Checker()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 644423500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Start",
+            "match": {
+              "location": "EligibilityCheckerSteps.i_click_on_Start()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41787300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select Wales as country i live in",
+            "match": {
+              "location": "EligibilityCheckerSteps.i_select_Wales_as_country_i_live_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384840700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Next",
+            "match": {
+              "location": "EligibilityCheckerSteps.i_click_on_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177724000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my Date of Birth",
+            "match": {
+              "location": "EligibilityCheckerSteps.i_enter_my_Date_of_Birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428210000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Next",
+            "match": {
+              "location": "EligibilityCheckerSteps.i_click_on_Next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216132600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see the result page",
+            "match": {
+              "location": "EligibilityCheckerSteps.iSeeTheResultPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39309100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can see the text \"Based on what you\u0027ve told us You get help with NHS costs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Based on what you\u0027ve told us You get help with NHS costs\"",
+                  "offset": 19
+                }
+              ],
+              "location": "EligibilityCheckerSteps.iCanSeeTheText(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Ade"
+          }
+        ]
+      }
+    ],
+    "name": "Eligibility Checker",
+    "description": "",
+    "id": "eligibility-checker",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/EligibilityChecker.feature",
+    "tags": [
+      {
+        "name": "@Ade",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
